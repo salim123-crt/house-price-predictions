@@ -1,0 +1,37 @@
+{
+  "n_lignes": 4600,
+  "n_colonnes": 18,
+  "valeurs_manquantes": 0,
+  "doublons_exacts": 0,
+  "periode_debut": "2014-05-02",
+  "periode_fin": "2014-07-10",
+  "pays": [
+    "USA"
+  ],
+  "etats": [
+    "WA"
+  ],
+  "n_villes": 44,
+  "n_codes_postaux": 77,
+  "n_rues_distinctes": 4525,
+  "prix_nuls": 49,
+  "prix_negatifs": 0,
+  "prix_non_entiers": 109,
+  "prix_min_positif": 7800.0,
+  "prix_median": 465000.0,
+  "prix_max": 26590000.0,
+  "prix_sqft_median": 245.4248366013072,
+  "prix_sqft_max": 22533.898305084746,
+  "chambres_0": 2,
+  "salles_de_bain_0": 2,
+  "renovation_avant_construction": 195,
+  "yr_renovated_0": 2735,
+  "construction_apres_vente": 0,
+  "renovation_apres_vente": 0,
+  "surfaces_incoherentes": 0,
+  "lignes_adresse_repetee": 145,
+  "adresses_repetees": 71,
+  "bloc_final_lignes": 248,
+  "bloc_final_prix_nuls": 49,
+  "bloc_final_prix_non_entiers": 109
+}

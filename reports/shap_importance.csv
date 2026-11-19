@@ -1,0 +1,16 @@
+variable,libelle,mean_abs_shap_log
+sqft_living,Surface habitable (sqft),0.24035030853912603
+statezip,Code postal,0.18468517584076283
+city,Ville,0.1479412621896381
+sqft_basement,Surface du sous-sol (sqft),0.042047569235742474
+bathrooms,Salles de bain,0.03909103432688071
+sqft_lot,Surface du terrain (sqft),0.03764660686121538
+condition,État général (1-5),0.036697858077351916
+view,Qualité de la vue (0-4),0.032499156394902966
+bedrooms,Chambres,0.024250957395646835
+years_since_renovation,Années depuis construction/rénovation,0.024054254613371646
+is_renovated,Rénovée,0.011148432297583447
+floors,Niveaux,0.010002055574978139
+house_age,Âge à la vente (ans),0.006069556014565189
+has_basement,Présence d'un sous-sol,0.005964759780556411
+waterfront,Bord de l'eau,0.0017011087117622344

@@ -1,0 +1,5 @@
+model,label,cv_mae_mean,cv_mae_std,cv_rmse_mean,cv_rmse_std,cv_r2_mean,cv_r2_std,n_candidates,search_seconds,best_params
+ridge,Ridge (linéaire régularisé),85091.97890539751,6600.783674905164,157504.79948363602,24607.74310099528,0.8150056479711723,0.025374256022880706,10,10.1,"{""alpha"": 0.001}"
+xgboost,XGBoost,87208.58195889695,5419.503114502879,171839.82510211147,38631.03485444975,0.7792991619882162,0.05611315769103523,12,134.9,"{""subsample"": 0.7, ""reg_lambda"": 1.0, ""n_estimators"": 800, ""min_child_weight"": 3, ""max_depth"": 4, ""learning_rate"": 0.06, ""colsample_bytree"": 0.5}"
+random_forest,Random Forest,104766.58892478712,10159.008162685976,204883.96607297333,49813.68926010409,0.6931376785031003,0.06780422712746628,8,56.6,"{""n_estimators"": 300, ""min_samples_leaf"": 1, ""max_features"": 0.3, ""max_depth"": null}"
+dummy,DummyRegressor (référence),226259.26245471454,12911.638042520306,375618.9156354519,52342.15819676929,-0.04554210722948846,0.01130025057270841,1,1.0,{}

@@ -1,0 +1,19 @@
+# Environnement
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Artefacts générés par `python -m src.train` (reproductibles, non versionnés)
+models/*
+!models/README.md
+data/processed/
+
+# Streamlit
+.streamlit/secrets.toml

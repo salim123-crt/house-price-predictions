@@ -1,0 +1,7 @@
+etape,regle,lignes_concernees,action,lignes_restantes
+Prix nul ou négatif,price <= 0,49,lignes supprimées,4551
+Prix incohérent,prix/sqft > 5x ou < 1/5 de la médiane du code postal,8,lignes supprimées,4543
+Rénovation avant construction,0 < yr_renovated < yr_built,193,yr_renovated mis à 0,4543
+bedrooms = 0,bedrooms == 0,2,mis à NaN (imputé par la médiane dans le pipeline),4543
+bathrooms = 0,bathrooms == 0,2,mis à NaN (imputé par la médiane dans le pipeline),4543
+Bloc final signalé,row_id >= 4352,198,"conservées, erreur mesurée séparément",4543

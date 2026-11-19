@@ -1,0 +1,16 @@
+variable,libelle,valeur,contribution
+sqft_living,Surface habitable (sqft),3700,0.44362843788224005
+bathrooms,Salles de bain,5.75,0.228023132564027
+bedrooms,Chambres,7.0,-0.11929609625189463
+statezip,Code postal,WA 98155,-0.0711494026813208
+view,Qualité de la vue (0-4),1,0.068158050086106
+sqft_basement,Surface du sous-sol (sqft),0,0.03879467100358791
+condition,État général (1-5),3,-0.028210454630465533
+is_renovated,Rénovée,1,-0.016732833649466216
+city,Ville,Lake Forest Park,-0.016134707647166655
+floors,Niveaux,2.0,-0.010434425760875292
+house_age,Âge à la vente (ans),66.0,0.005981437275106482
+has_basement,Présence d'un sous-sol,0,0.005295640080920187
+sqft_lot,Surface du terrain (sqft),7647,-0.004341266237785769
+years_since_renovation,Années depuis construction/rénovation,30.0,-0.001282202069030316
+waterfront,Bord de l'eau,0,0.0
